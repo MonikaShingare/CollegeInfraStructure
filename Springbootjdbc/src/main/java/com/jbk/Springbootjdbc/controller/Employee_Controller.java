@@ -16,14 +16,11 @@ import com.jbk.Springbootjdbc.service.Employee_i;
 public class Employee_Controller {
 	Employee_i service=new Employee_Impl();
 
-	
-	
 	@PostMapping("/save-employee")
 	public String saveEmployee(@RequestBody Employee employee)
 	{
-		System.out.println("hello people");
-		
-		String msg=service.saveEmployee(employee);
+		System.out.println(" hello people");
+			String msg=service.saveEmployee(employee);
 		
 			return msg;
 		
