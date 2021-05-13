@@ -19,7 +19,7 @@ public class Employee_Controller {
 	@PostMapping("/save-employee")
 	public String saveEmployee(@RequestBody Employee employee)
 	{
-		System.out.println("INDIA");
+		System.out.println(" hello INDIA");
 			String msg=service.saveEmployee(employee);
 		
 			return msg;
