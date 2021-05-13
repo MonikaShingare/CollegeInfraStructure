@@ -22,7 +22,7 @@ public class Employee_Controller {
 	public String saveEmployee(@RequestBody Employee employee)
 	{
 		System.out.println("hello world");
-		System.out.println("hey you");
+		System.out.println("heyy you");
 		String msg=service.saveEmployee(employee);
 		
 			return msg;
